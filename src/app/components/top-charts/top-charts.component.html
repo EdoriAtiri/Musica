@@ -3,10 +3,17 @@
   <!-- Card Container -->
   <div>
     <!-- Cards -->
-    <div class="h-[233px] w-[323px] rounded-[20px] bg-[#1A1E1F] p-[14px]">
+    <app-top-card
+      *ngFor="let album of topAlbums"
+      [album]="album"
+    ></app-top-card>
+  </div>
+</div>
+
+<!-- <div class="h-[233px] w-[323px] rounded-[20px] bg-[#1A1E1F] p-[14px]">
       <div class="flex justify-between">
         <figure class="h-[99px] w-[108px] rounded-[10px] bg-gray-400"></figure>
-        <!-- heart/like svg -->
+        heart/like svg
         <button
           (click)="ontoggle()"
           class="border-[rgba(255, 255, 255, 0.11)] grid h-[37px] w-[37px] place-content-center rounded-full border"
@@ -38,6 +45,4 @@
           >45</span
         >
       </p>
-    </div>
-  </div>
-</div>
+    </div> -->
