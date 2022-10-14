@@ -1,0 +1,7 @@
+.play-shadow {
+  filter: drop-shadow(0px 0px 24px #ffffff);
+}
+
+.image-shadow {
+  box-shadow: 0px 17.5746px 19.9179px -11.7164px rgba(0, 0, 0, 0.61);
+}

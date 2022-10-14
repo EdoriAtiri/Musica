@@ -1,5 +1,6 @@
 #topChart::-webkit-scrollbar {
   height: 0.5em;
+  display: none;
 }
 
 #topChart::-webkit-scrollbar-track {

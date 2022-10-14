@@ -8,6 +8,7 @@ import { HeaderComponent } from './partials/header/header.component';
 import { TopCardComponent } from './components/top-card/top-card.component';
 import { ChartsComponent } from './components/charts/charts.component';
 import { AlbumCardComponent } from './components/album-card/album-card.component';
+import { PlayerComponent } from './components/player/player.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AlbumCardComponent } from './components/album-card/album-card.component
     TopCardComponent,
     ChartsComponent,
     AlbumCardComponent,
+    PlayerComponent,
   ],
   imports: [BrowserModule],
   providers: [],
