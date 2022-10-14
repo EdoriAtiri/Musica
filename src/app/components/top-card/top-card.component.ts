@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { topAlbums } from '../../Modules/topAlbums';
+import { albums } from '../../Modules/albums';
 
 @Component({
   selector: 'app-top-card',
@@ -8,7 +8,7 @@ import { topAlbums } from '../../Modules/topAlbums';
 })
 export class TopCardComponent implements OnInit {
   @Input()
-  album!: topAlbums;
+  album!: albums;
 
   toggle: boolean = false;
   val: string = 'none';

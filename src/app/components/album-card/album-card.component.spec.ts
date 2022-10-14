@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TopChartsComponent } from './top-charts.component';
+import { AlbumCardComponent } from './album-card.component';
 
-describe('TopChartsComponent', () => {
-  let component: TopChartsComponent;
-  let fixture: ComponentFixture<TopChartsComponent>;
+describe('AlbumCardComponent', () => {
+  let component: AlbumCardComponent;
+  let fixture: ComponentFixture<AlbumCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TopChartsComponent ]
+      declarations: [ AlbumCardComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TopChartsComponent);
+    fixture = TestBed.createComponent(AlbumCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

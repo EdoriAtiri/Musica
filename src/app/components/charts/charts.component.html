@@ -1,0 +1,30 @@
+<div>
+  <!-- Top Charts -->
+  <div class="mb-6 flex flex-col gap-4 text-offWhite">
+    <h3 class="text-xl font-bold">Top Charts</h3>
+    <!-- Card Container -->
+    <div id="topChart" class="flex snap-x snap-mandatory gap-4 overflow-x-auto">
+      <!-- Cards -->
+
+      <app-top-card
+        class="snap-center"
+        *ngFor="let album of topAlbums"
+        [album]="album"
+      ></app-top-card>
+    </div>
+  </div>
+
+  <!-- New Releases -->
+  <div class="mb-6 flex flex-col gap-4 text-offWhite">
+    <h3 class="text-xl font-bold">New Releases</h3>
+    <!-- Card Container -->
+    <div id="topChart" class="flex snap-x snap-mandatory gap-7 overflow-x-auto">
+      <!-- Cards -->
+      <app-album-card
+        class="snap-center"
+        *ngFor="let newRelease of newReleases"
+        [newRelease]="newRelease"
+      ></app-album-card>
+    </div>
+  </div>
+</div>
