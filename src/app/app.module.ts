@@ -9,6 +9,7 @@ import { TopCardComponent } from './components/top-card/top-card.component';
 import { ChartsComponent } from './components/charts/charts.component';
 import { AlbumCardComponent } from './components/album-card/album-card.component';
 import { PlayerComponent } from './components/player/player.component';
+import { ChartsPageComponent } from './pages/charts-page/charts-page.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PlayerComponent } from './components/player/player.component';
     ChartsComponent,
     AlbumCardComponent,
     PlayerComponent,
+    ChartsPageComponent,
   ],
   imports: [BrowserModule],
   providers: [],
