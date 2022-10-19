@@ -10,6 +10,7 @@ import { ChartsComponent } from './components/charts/charts.component';
 import { AlbumCardComponent } from './components/album-card/album-card.component';
 import { PlayerComponent } from './components/player/player.component';
 import { ChartsPageComponent } from './pages/charts-page/charts-page.component';
+import { ChartCardComponent } from './components/chart-card/chart-card.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ChartsPageComponent } from './pages/charts-page/charts-page.component';
     AlbumCardComponent,
     PlayerComponent,
     ChartsPageComponent,
+    ChartCardComponent,
   ],
   imports: [BrowserModule],
   providers: [],

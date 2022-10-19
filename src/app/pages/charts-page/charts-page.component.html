@@ -1,3 +1,6 @@
+<div class="absolute top-0 left-0 h-3/5 w-screen">
+  <img src="../../../assets/SVG/lead-chart_image.svg" alt="" />
+</div>
 <div class="flex w-full flex-col items-center justify-center pt-9">
   <figure class="h-[289px] w-[357px] overflow-hidden rounded-3xl">
     <img
@@ -19,7 +22,7 @@
     </div>
   </div>
 
-  <div class="flex w-[362px] justify-between">
+  <div class="mb-6 flex w-[362px] justify-between">
     <button
       class="flex h-9 w-[87px] items-center justify-around gap-3 rounded-[32px] bg-white bg-opacity-[0.07] p-[10px] text-xs"
     >
@@ -68,5 +71,12 @@
       />
       <p>Like</p>
     </button>
+  </div>
+
+  <div class="flex w-[362px] flex-col gap-3.5">
+    <app-chart-card
+      *ngFor="let album of topAlbums"
+      [album]="album"
+    ></app-chart-card>
   </div>
 </div>

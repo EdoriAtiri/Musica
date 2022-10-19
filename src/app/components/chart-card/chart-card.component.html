@@ -1,0 +1,31 @@
+<div
+  class="flex h-14 w-full items-center rounded-[10px] bg-[#33373b] bg-opacity-40 p-2"
+>
+  <figure
+    class="mr-3.5 h-[39px] w-[39px] overflow-hidden rounded-[5px] bg-gray-400"
+  >
+    <img src="{{ album.albumArt }}" class="object-cover" alt="" />
+  </figure>
+
+  <div class="flex flex-col gap-1.5">
+    <p class="text-xs">{{ album.title }} ~ {{ album.artist }}</p>
+    <p class="text-[10px]">Single</p>
+  </div>
+
+  <div class="ml-auto flex h-full flex-col items-center justify-between">
+    <button
+      class="flex h-3.5 w-3.5 flex-col items-center justify-center gap-[2.92px]"
+    >
+      <div
+        class="h-[1.17px] w-[1.17px] rounded-full border-[1.16px] border-secondary bg-secondary bg-opacity-100"
+      ></div>
+      <div
+        class="h-[1.17px] w-[1.17px] rounded-full border-[1.16px] border-secondary bg-secondary bg-opacity-100"
+      ></div>
+      <div
+        class="h-[1.17px] w-[1.17px] rounded-full border-[1.16px] border-secondary bg-secondary bg-opacity-100"
+      ></div>
+    </button>
+    <p class="text-xs">{{ album.length }}</p>
+  </div>
+</div>
