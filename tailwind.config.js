@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         main: "#1E1E1E",
-        secondary: "#FACD66",
+        sec: "#FACD66",
         offWhite: "#EFEEE0",
         player: "rgba(29, 33, 35, 0.3)",
       },
