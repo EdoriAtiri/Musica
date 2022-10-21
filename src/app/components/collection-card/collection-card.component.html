@@ -1,9 +1,9 @@
 <div
-  class="relative flex h-[234px] w-[359px] items-end justify-between overflow-hidden rounded-[20px] px-5 pb-6"
+  class="relative flex h-[234px] w-[359px] items-end justify-between overflow-hidden rounded-[20px] bg-main px-5 pb-6"
 >
   <img
     src="{{ collections.album_cover }}"
-    class="position absolute top-0 left-0 z-10 h-fit w-full object-cover"
+    class="position absolute top-0 left-0 z-10 h-auto w-full object-cover"
     alt=""
   />
   <div
@@ -14,7 +14,7 @@
     <p class="mb-8 text-[10px] text-offWhite text-opacity-75">
       {{ collections.artist }}
     </p>
-    <p class="text-sm">{{ collections.likes }} likes</p>
+    <p class="text-sm">{{ collections.likes }}m likes</p>
   </div>
 
   <!-- Play SVG -->

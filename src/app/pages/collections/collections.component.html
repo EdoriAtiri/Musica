@@ -12,7 +12,10 @@
     </button>
   </div>
 
-  <div>
-    <app-collection-card></app-collection-card>
+  <div class="flex w-[360px] flex-col items-center justify-center gap-5 pt-9">
+    <app-collection-card
+      *ngFor="let collection of collections"
+      [collections]="collection"
+    ></app-collection-card>
   </div>
 </div>
