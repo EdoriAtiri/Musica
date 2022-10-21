@@ -13,6 +13,7 @@ import { ChartsPageComponent } from './pages/charts-page/charts-page.component';
 import { ChartCardComponent } from './components/chart-card/chart-card.component';
 import { CollectionsComponent } from './pages/collections/collections.component';
 import { CollectionCardComponent } from './components/collection-card/collection-card.component';
+import { NavComponent } from './partials/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { CollectionCardComponent } from './components/collection-card/collection
     ChartCardComponent,
     CollectionsComponent,
     CollectionCardComponent,
+    NavComponent,
   ],
   imports: [BrowserModule],
   providers: [],
